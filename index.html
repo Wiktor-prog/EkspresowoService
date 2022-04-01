@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ekspres</title> 
+  <link rel="stylesheet" href="/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+  <link rel="stylesheet" href="/path/to/flickity.css" media="screen">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  <script src="/path/to/flickity.pkgd.min.js"></script>
+  <script src="https://kit.fontawesome.com/4d43888303.js" crossorigin="anonymous"></script>
+</head> 
+<body>
+
+  <nav class="navbar">
+    <div class="max-width">
+      <ul class="menu">
+        <div class="flex-container">
+        <li><i class="fa-solid fa-house"></i><a href="#home" class="menu-btn">Strona główna</a></li>
+        <li><i class="fa-solid fa-people-group"></i><a href="#about"class="menu-btn">O nas</a></li>
+        <li><i class="fa-solid fa-wrench"></i><a href="#service"class="menu-btn">Serwis</a></li>
+        <li><i class="fa-solid fa-phone"></i><a href="#contact"class="menu-btn">Kontakt</a></li>
+      </ul> 
+      <div class="menu-btn" >
+        <i class="fa-solid fa-align-left"></i>
+      </div>
+      </div>
+    </div>
+  </nav>
+  
+<section class="home" id="home">
+  <div class="max-width">
+    <div class="home-content">
+      <div class="text-1">Serwis pogwarancyjny</div>
+      <div class="text-2"></div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="about" id="about">
+  <div class="max-width">
+    <div class="about-content">
+      <div class="column right">
+        <div class="description">Krótko o nas</div>
+        <hr class="hr1">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa tempore iusto itaque 
+          doloribus non eum reprehenderit asperiores veritatis, rerum mollitia totam delectus 
+          soluta impedit minima veniam voluptatum accusamus similique eius voluptatibus placeat 
+          possimus unde. Soluta, reiciendis magni qui illum velit itaque nihil veniam nam corrupti
+           officia doloremque perspiciatis rem excepturi ratione atque molestiae vel? Nisi voluptatibus 
+           voluptate earum beatae culpa.</p>
+      </div>
+      <div class="column left">
+        <img src="/Img/saecobackground.jpg" alt="">
+      </div>
+    </div>
+    <div class="carousel" data-flickity='{ "autoPlay": 2500 , "wrapAround":true , "pageDots": false}'>
+      <div class="carousel-cell"><img src="./logo/Saeco-logo.png"></div>
+      <div class="carousel-cell"><img src="./logo/delonghi-logo.png"></div>
+      <div class="carousel-cell"><img src="./logo/philips-logo.png"></div>
+      <div class="carousel-cell"><img src="./logo/Siemens-Logo.png"></div>
+      <div class="carousel-cell"><img src="./logo/logo-bosch.png"></div>
+      <div class="carousel-cell"><img src="./logo/Krups_Logo.png.png"></div>
+      <div class="carousel-cell"><img src="./logo/melitta-logo.png"></div>
+      <div class="carousel-cell"><img src="./logo/Jura_logo.png"></div>
+      <div class="carousel-cell"><img src="./logo/nivona-logo.png"></div>
+    </div>
+</section>
+
+<section class="counter">
+  <div class="counter-wrp">
+    <ul>
+      <li>
+        <i class="fa-solid fa-screwdriver-wrench"></i>
+        <p id="number1" class="number">600+</p>
+        <span></span>
+        <p>Wykonane naprawy</p>
+      </li>
+
+      <li>
+        <i class="fa-solid fa-business-time"></i>
+        <p id="number2" class="number">4</p>
+        <span></span>
+        <p>Lata doświaczenia</p>
+      </li>
+      
+      <li>
+        <i class="fa-solid fa-mug-hot"></i>
+        <p id="number3" class="number">99%</p>
+        <span></span>
+        <p>zadowolonych klientów</p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<section class="service" id="service">
+  <div class="max-width"> 
+    <div class="service-container">
+      <div class="column left">
+        <div class="service-description">Serwis i naprawy<br>pogwarancyjne</div>
+        <hr class="hr1">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa tempore iusto itaque 
+          doloribus non eum reprehenderit asperiores veritatis, rerum mollitia totam delectus 
+          soluta impedit minima veniam voluptatum accusamus similique eius voluptatibus placeat 
+          possimus unde. Soluta, reiciendis magni qui illum velit itaque nihil veniam nam corrupti
+           officia doloremque perspiciatis rem excepturi ratione atque molestiae vel? Nisi voluptatibus 
+           voluptate earum beatae culpa.</p>
+      </div>
+      <div class="column right">
+        <img src="/Img/received_262767649394419.jpeg" alt="">
+      </div>
+    </div>
+  </section>
+
+  <section class="step">
+    
+    <div class="steps-row">
+      <ul>
+        <li>
+          <i class="fa-solid fa-phone"></i>
+          <p class="number">Krok 1</p>
+          <span></span>
+          <p>Zgłoszenie usterki 
+            telefonicznie 
+            <a href="https://wa.me/505333789" target="_blank">(+48) 503-083-602</a></p>
+        </li>
+        <li>
+          <i class="fa-solid fa-car-side"></i>
+          <p class="number">Krok 2</p>
+          <span></span>
+          <p>Dostarczenie przez
+            państwa <br>ekspresu
+            do naszego serwisu.
+          </p> 
+        </li>
+        <li>
+          <i class="fa-solid fa-square-check"></i>
+          <p class="number">Krok 3</p>
+          <span></span>
+          <p>Wryfikacja oraz ustalnie <br>
+            kosztów i terminu naprawy
+          </p>
+        </li>
+        <li>
+          <i class="fa-solid fa-screwdriver-wrench"></i>
+          <p class="number">Krok 4</p>
+          <span></span>
+          <p>Naprawiamy twój ekspres!
+          </p>
+        </li>
+      </ul>
+    </div>    
+</section>
+
+
+<section class="maps">
+  <div class="map-description">Jak dojechać?</div>
+        <hr class="hr2">
+    <div id="map">
+      <p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2438.8117053882775!2d21.017859716077837!3d52.319419179776695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ec9f3c288013b%3A0xa91dce9f1968a131!2sEkspresowo%20Serwis!5e0!3m2!1spl!2sid!4v1648272204081!5m2!1spl!2sid"
+         width="100%" height="400" style="border:0;" 
+        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </p>
+    </div>
+  </section>
+
+    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+ 
+
+<section class="contact" id="contact">
+    <div class="contact-row">
+      <div class="contact-container">
+      <ul>
+        <li>
+          <i class="fa-solid fa-clock"></i>
+          <p class="hours">Godziny otwarcia</p>
+          
+          <p>Poniedziałek-Piatek <span class="time">9:00-17:00</span><br>
+             Sobota <span class="time">9:00-15:00</span></p>
+        </li>
+        <li>
+          <i class="fa-solid fa-location-dot"></i>
+          <p class="hours">Lokalizacja</p>
+          <span></span>
+          <p>Ul.Płochocińska 35<br>
+            03-044 Warszawa</p>
+        </li>
+        <li>
+          <i class="fa-solid fa-phone"></i>
+          <p class="hours">Telefon</p>
+          <span class="phone"><a href="https://wa.me/505333789" target="_blank">(+48)503-083-602</a></span>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<div class="info">
+  <a>@2022</a>
+</div>
+
+<script src="/scripts/jquery.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&v=weekly"async></script>
+</body>
+</html>
+
