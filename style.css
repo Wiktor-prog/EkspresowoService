@@ -61,7 +61,7 @@ justify-content: right;
 position: fixed;
 width: 100%;
 padding: 30px 0;
-background-color: rgb(53, 43, 35) ;
+background-color: rgb(39, 35, 31) ;
 font-size: 300;
 }
 
@@ -133,11 +133,13 @@ text-align: center;
 
 .home .home-content .text-1 {
 font-size: 48px;
+padding-top: 32px;
 }
 
 .home .home-content .text-2 {
-font-size: 36px;
+font-size: 30px;
 font-weight: 600;
+padding: 16px;
 margin-left: -3px;
 }
 
@@ -500,9 +502,10 @@ width: 450px;
 
 .home .home-content .text-1 {
 font-size: 30px;
+padding-top: 16px;
 }
 .home .home-content .text-2 {
-font-size: 28px;
+font-size: 18px;
 padding: 8px;
   }
 }
@@ -574,9 +577,10 @@ font-weight: 100;
 }
 .home .home-content .text-1 {
 font-size: 30px;
+padding-top: 16px;
 }
 .home .home-content .text-2 {
-font-size: 28px;
+font-size: 20px;
 padding: 8px;
 }
 .home .home-content a {
@@ -631,11 +635,13 @@ align-items:center;
 
 @media (max-width: 500px){
 .home .home-content .text-1 {
-font-size: 30px;
+padding-top: 16px;
+font-size: 24px;
+
 }
 
 .home .home-content .text-2 {
-font-size: 28px;
+font-size: 16px;
 padding: 8px;
 }
 .service-list {
@@ -647,8 +653,8 @@ font-size: 12px;
 }
 .about .about-content .left img {
 
-height: 300px;
-width: 300px; 
+height: 260px;
+width: 260px; 
 }
 
 .service .service-container .right img {
