@@ -676,4 +676,10 @@ width:250px;
    padding-top: 0px;
    padding-bottom: 0px;
   }
+  @media (max-width: 410px){
+    section.step {
+      margin: 0;
+      padding: 0;
+    }
+  }
 }
