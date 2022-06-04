@@ -38,11 +38,9 @@ height: 3px;
 background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
 
-
 /*=================================
 NavBar Section 
 ================================ */
-
 
 .max-width {
 max-width: 1300px;
@@ -98,11 +96,9 @@ display: none;
 width: 100%;
 }
 
-
 /*=================================
 Home Section 
 ================================ */
-
 
 section.home{
 height: 100vh;
@@ -148,11 +144,9 @@ font-size: 36px;
 margin: 2px 0;
 }
 
-
 /* ====================
 About Section
 ======================*/  
-
 
 section.about {
 padding-top:24px ;
@@ -194,13 +188,9 @@ font-weight: 500;
 margin-bottom: 24px;
 }
 
-
-
-
 /* ====================
 Counter 
 ======================*/  
-
 
 section.counter{
 background-color: rgb(53, 43, 35) ;
@@ -262,7 +252,6 @@ margin: 6px auto;
 service Section
 ======================*/  
 
-
 section.service{
 padding-top:100PX ;
 }
@@ -320,28 +309,25 @@ margin-bottom: 24px;
 text-align: justify;
 }
 
-
 /* ====================
 Baner======================*/
-.logoBaner {
-  margin: 0 auto;
-  padding-top: 40px;
-  padding-bottom: 40px;
-   max-width: 100%;
-  
-  }
 
-.logoBaner img {
-  max-width: 100%;
-  height: auto
+.logoBaner {
+margin: 0 auto;
+padding-top: 40px;
+padding-bottom: 40px;
+max-width: 100%;
+
 }
 
-
+.logoBaner img {
+max-width: 100%;
+height: auto
+}
 
 /* ====================
 Steps
 ======================*/ 
-
 
 section.step{
 max-width: 1300px;
@@ -365,7 +351,6 @@ transition: 0.2s linear;
 background-color: #f8f8f8;
 border-radius: 5px;
 }
-
 
 .steps-row li p.number {
 vertical-align: middle;
@@ -393,7 +378,6 @@ color: rgb(27, 27, 27)
 .steps-row li span {
 color: rgb(44, 44, 44);
 }
-
 
 section.maps {
 margin: auto;
@@ -467,17 +451,12 @@ background-color: rgb(61, 61, 61) ;
 color: #fff;
 }
 
-
-
 /* ====================
 Media querry 
 ======================*/ 
 
-
-
 @media (max-width: 1300px){
 }
-
 @media (max-width: 1104px){
 .about .about-content .left img {
 height: 350px;
@@ -486,11 +465,8 @@ width: 350px;
 .service-list {
 font-size: 14px;
 width: 450px;
+ }
 }
-
-
-}
-
 @media (max-width: 991px){
 .home .max-width {
 padding: 0 50px
@@ -499,7 +475,6 @@ padding: 0 50px
 font-size: 14px;
 width: 450px;
 }
-
 .home .home-content .text-1 {
 font-size: 30px;
 padding-top: 16px;
@@ -509,7 +484,6 @@ font-size: 18px;
 padding: 8px;
   }
 }
-
 @media (max-width: 947px){
 .max-width {
 padding: 0 50px
@@ -525,12 +499,10 @@ z-index: 999;
 .about .about-content .left img {
   padding-top: 40px;
 }
-
 .home-content .logo img {
 height: 300px;
 width:300px;
 }
-
 .navbar .menu {
 position: fixed;
 background: rgb(0, 0, 0);
@@ -608,7 +580,6 @@ margin-bottom: 35px;
     }
 }
 
-
 @media (max-width: 690px){
 .max-width {
 padding: 0 50px
@@ -617,11 +588,10 @@ padding: 0 50px
 padding-top: 0px;
 padding-bottom: 0px;
 }
-
 .service .service-container .right img {
-  height: 300px;
-  width: 100%;
-  }
+height: 300px;
+width: 100%;
+}
 .about .about-content .left img {
 padding-top: 40px;
 }
@@ -644,9 +614,7 @@ align-items:center;
 .home .home-content .text-1 {
 padding-top: 16px;
 font-size: 24px;
-
 }
-
 .home .home-content .text-2 {
 font-size: 16px;
 padding: 8px;
@@ -659,11 +627,9 @@ width: 350px;
 font-size: 12px;
 }
 .about .about-content .left img {
-
 height: 260px;
 width: 260px; 
 }
-
 .service .service-container .right img {
 height: 300px;
 width: 100%;
@@ -673,20 +639,20 @@ height: 250px;
 width:250px;
 }
 .logoBaner {
-  margin: 0 auto;
-   max-width: 100%;
-   padding-top: 0px;
-   padding-bottom: 0px;
-  }
+margin: 0 auto;
+max-width: 100%;
+padding-top: 0px;
+padding-bottom: 0px;
+}
 
-  @media (max-width: 410px){
-    section.step {
-      margin: 0;
-      padding: 0;
-    }
-    a.phonenumber {
-      white-space: pre;
-      font-size: 18px;
-    }
+@media (max-width: 410px){
+  section.step {
+    margin: 0;
+    padding: 0;
   }
+  a.phonenumber {
+    white-space: pre;
+    font-size: 18px;
+  }
+}
 }
