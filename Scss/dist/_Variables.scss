@@ -1,0 +1,62 @@
+// font sizes //
+
+$font-size: ( 
+  "font-size-12": .75rem,
+  "font-size-14": .875rem,
+  "font-size-16": 1rem,
+  "font-size-18": 1.125rem,
+  "font-size-20": 1.25rem, 
+  "font-size-24": 1.5rem, 
+  "font-size-30": 1.875rem,  
+  "font-size-36": 2.25rem, 
+  "font-size-40": 2.5rem, 
+  "font-size-48": 3rem 
+);
+
+// Paddings //
+
+$Paddings: ( 
+  "padding-0": 0,
+  "padding-6": .375rem,
+  "padding-8": .5rem,
+  "padding-10": .625rem, 
+  "padding-16": 1rem, 
+  "padding-20": 1.25rem,
+  "padding-24": 1.5rem, 
+  "padding-28": 1.75rem, 
+  "padding-30": 1.875rem,
+  "padding-32": 2rem, 
+  "padding-40": 2.5rem, 
+  "padding-50": 3.125rem, 
+  "padding-100": 6.25rem
+);
+
+// Margins //
+
+$margin:(
+  "margin-0": 0,
+  "margin--3": -.188rem,
+  "margin-2": .125rem,
+  "margin-6": .375rem,
+  "margin-24": 1.5rem,
+  "margin-30": 1.875rem,
+  "margin-36": 2.25rem,
+  "margin-60": 3.75rem,
+  "margin-100": 6.25rem
+);
+
+// Border Radius //
+
+$border-radius-2: .125rem;
+$border-radius-6: .375rem;
+$border: 0;
+
+// Fonts Weight //
+
+$light-xs: 100;
+$light: 300;
+$normal: 400;
+$medium: 500;
+$bold: 600;
+$bold-xl: 700;
+

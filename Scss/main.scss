@@ -1,0 +1,20 @@
+// Global settings //
+@use "./dist/Global" as *;
+
+// Variables and colors settings //
+@use "./dist/Colors" as *;
+@use "./dist/Variables" as *;
+
+// Main website settings //
+@use "./dist/Base" as *;
+
+// components settings //
+@use "./dist/NavBar" as *;
+@use "./dist/Counter" as *;
+
+// media query settings //
+@use "./dist/BreakPoints" as *;
+
+  
+
+
