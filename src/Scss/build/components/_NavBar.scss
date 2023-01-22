@@ -4,11 +4,11 @@
 nav {
   display: flex;
   justify-content:right;
-  background: linear-gradient(90deg, #100631 0%, #211133 100%);
+  background: linear-gradient(90deg, #e6e6e6 0%, #ffffff 100%);
   position: fixed;
   width: 100%;
   height:100px;
   z-index: 2;
   padding: map-get($Paddings, padding-16);
-  box-shadow: 0px 4px #ff0099;
+  box-shadow: 0px 4px $navbar-hover-color;
 }

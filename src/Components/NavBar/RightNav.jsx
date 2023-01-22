@@ -12,16 +12,16 @@ const StyledNav = styled.ul`
 .menu_top li {
   padding: 20px;
   position: relative;
-  font-weight: 700;
+  font-weight: 900;
   font-size: 20px;
 }
 .menu_top li a {
-  color:  rgb(236, 236, 230);
+  color:  #a98970;
   text-decoration: none;
 }
 
 .nav_Btns:hover {
-  color: #FFF;
+  color: #c29e84;
   transition: 0.3s;
 }
 
@@ -30,15 +30,16 @@ const StyledNav = styled.ul`
     position: fixed;
     transform: ${({ open }) => open ? ' translate(0)' : ' translate(100%)'};
     flex-flow: column nowrap;
-    background : linear-gradient(#eb008d,#5e0f3e) ;
-    border-top: solid 2px #01c4ff;
+    background : #f7f7f7;
+    border-top: solid 2px #a98970;
     border-top-left-radius: 20px;
     padding-top: 8rem;
     margin: 0;
     right:0;
+    font-weight: 700;
     height: 100vh;
-    width:200px;
-    z-index: 1;
+    width:250px;
+    z-index: 2;
     transition: all 0.5s ease-in-out;
   }
 }`;
@@ -50,19 +51,25 @@ export default function RightNav({ open }) {
         <li>
           <a 
           className="nav_Btns" 
-          href="#home" >Home</a>
+          href="#about" >O Nas</a>
         </li>
         
         <li>
           <a 
           className="nav_Btns" 
-          href="https://github.com/Wiktor-prog">GitHub</a>
+          href="#service">Jak pracujemy</a>
+        </li>
+
+        <li>
+          <a 
+          className="nav_Btns" 
+          href="#map">Jak dojechać</a>
         </li>  
         
         <li>
           <a 
           className="nav_Btns" 
-          href="#contact">Contact</a>
+          href="#contact">Kontakt</a>
         </li>   
     </ul>
     </StyledNav>

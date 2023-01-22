@@ -4,9 +4,9 @@ import RightNav from "../NavBar/RightNav"
 
 const StyledBurgerMenu = styled.div`
   width: 1rem;
-  height: 2rem;
+  height: 2rem
   position: fixed;
-  top: 15px;
+  top: 20px;
   padding:20px;
   right: 20px;
   z-index: 999;
@@ -20,8 +20,8 @@ const StyledBurgerMenu = styled.div`
 
 div {
   width: 2rem;
-  height: 0.2rem;
-  background-color: #fff;
+  height: 0.3rem;
+  background-color: #a98970;
   border-radius: 10px;
   transition: all 0.3s linear;
   transform-origin: 1px;

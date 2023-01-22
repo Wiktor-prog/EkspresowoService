@@ -19,11 +19,14 @@
   
   .home .home-content .text-1 {
   font-size: map-get($font-size , font-size-48 );
-  padding-top: map-get($Paddings, padding-32 ) }
+  padding-top: map-get($Paddings, padding-32 );
+  color: $second-color;
+  font-weight: $bold-xl; }
   
   .home .home-content .text-2 {
   font-size: map-get($font-size , font-size-30 );
-  font-weight: 600;
+  font-weight: $bold-xl;
+  color: $second-color;
   padding: map-get($Paddings, padding-16 );
   margin-left: map-get($margin, margin--3 ); }
   
