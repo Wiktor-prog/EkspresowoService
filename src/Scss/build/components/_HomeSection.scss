@@ -1,0 +1,33 @@
+@use "../Global" as *;
+@use "../Colors" as *;
+@use "../Variables" as *;
+
+
+.home-content .logo img {
+  height: 400px;
+  width: 400px; }
+  
+  .home { 
+  display: flex;
+  color: $primary-color;
+  background-color: $background-home;
+  min-height: 500px;
+  text-align: center; }
+  
+  .home-content {
+  text-align: center; } 
+  
+  .home .home-content .text-1 {
+  font-size: map-get($font-size , font-size-48 );
+  padding-top: map-get($Paddings, padding-32 ) }
+  
+  .home .home-content .text-2 {
+  font-size: map-get($font-size , font-size-30 );
+  font-weight: 600;
+  padding: map-get($Paddings, padding-16 );
+  margin-left: map-get($margin, margin--3 ); }
+  
+  .home .home-content .text-3 {
+  font-size: map-get($font-size , font-size-36 );
+  margin: map-get($margin, margin-2 ) 0; }
+  

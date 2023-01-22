@@ -1,0 +1,54 @@
+@use "../Colors" as*;
+@use "../Variables" as *;
+
+
+.counter-wrp ul {
+  list-style-type: none;
+  display: grid;
+  padding-top: 100px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap : 10px;  
+  padding-bottom: map-get($Paddings, padding-100);
+
+  & li  {
+    height: 100%;
+    padding: map-get($Paddings, padding-30 ) 0px;
+    text-align: center;
+    transition: 0.2s linear;
+  } 
+  & li .iconSVG {
+    padding: map-get($Paddings, padding-40 );
+    font-size: map-get($font-size, font-size-30 );
+    color: $steps-color;
+    height: 140px;
+  }
+  & li p {
+  color: $second-color;
+  font-size: map-get($font-size , font-size-18 );
+  font-weight: $bold-xl;
+  margin: map-get($margin, margin-0 );
+  padding: map-get($Paddings, padding-10 );
+  }
+  & li i {
+  vertical-align: middle;
+  padding:  map-get($Paddings, padding-40 );
+  font-size: map-get($font-size , font-size-30 );
+  color: $primary-color;
+  }
+  & ul li span {
+  width: 50px;
+  background-color: $primary-color;
+  height: 1px;
+  display: block;
+  margin: map-get($margin, margin-6 ) auto;
+  }
+  & li p.number {
+    vertical-align: middle;
+    padding: map-get($Paddings, padding-0 );
+    font-weight: $bold;
+    font-size: map-get($font-size , font-size-24 );
+  }
+  & li:hover {
+    transform: scale(1.1);
+  };
+}

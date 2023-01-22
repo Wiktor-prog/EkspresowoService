@@ -1,0 +1,27 @@
+
+// Global settings //
+@use "../Scss/build/Global" as *;
+
+// Variables and colors settings //
+@use "../Scss/build/Colors" as *;
+@use "../Scss/build/Variables" as *;
+
+// Main website settings //
+
+// components settings //
+@use "../Scss/build/components/NavBar" as *;
+@use "../Scss/build/components/HomeSection" as *;
+@use "../Scss/build/components/AboutSection" as *;
+@use "../Scss/build/components/ServiceSection" as *;
+@use "../Scss/build/components/StepRowSection" as *;
+@use "../Scss/build/components/Counter" as *;
+@use "../Scss/build/components/Map" as *;
+@use "../Scss/build/components/Contact" as *;
+
+
+// media query settings //
+@use "../Scss/build/BreakPoints" as *;
+
+  
+
+

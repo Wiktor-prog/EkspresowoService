@@ -1,0 +1,12 @@
+@use "../Global" as *;
+@use "../Colors" as *;
+@use "../Variables" as *;
+
+.mapouter {
+  position:relative;
+  background: $background-steps;
+}
+.gmap_canvas {
+  overflow:hidden;
+  background:none!important;
+}

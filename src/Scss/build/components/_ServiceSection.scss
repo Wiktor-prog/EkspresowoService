@@ -1,0 +1,35 @@
+@use "../Global" as *;
+@use "../Colors" as *;
+@use "../Variables" as *;
+
+/* ====================
+service Section
+======================*/  
+
+.service {
+  background: $primary-color;
+  padding-top: map-get($Paddings, padding-24 );
+  background-color: $background-steps;
+  padding-bottom: map-get($Paddings, padding-30 ); 
+  
+    & .service-container .column {
+      width: 45%; 
+    }
+    & .service-container .right img {
+ 
+    object-fit: cover;
+    }
+  }
+  
+  .description {
+  font-size: map-get($font-size , font-size-36 );
+  font-weight: $bold-xl;
+  margin-bottom: map-get($margin, margin-24 ); }
+  
+  .left p {
+    font-size: map-get($font-size , font-size-18 );
+    font-weight: $medium;
+    padding-top: map-get($Paddings, padding-24 );
+    text-align: left;
+      }
+ 

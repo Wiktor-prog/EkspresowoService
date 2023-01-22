@@ -1,0 +1,59 @@
+@use "../Global" as *;
+@use "../Colors" as *;
+@use "../Variables" as *;
+
+
+/* ====================
+Section Contact
+======================*/ 
+
+.contact-row ul {
+list-style-type: none;
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+padding-bottom: map-get($Paddings, padding-50 );
+
+  & li {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding-top: map-get($Paddings, padding-50 );
+  }
+  & li i {
+  color: $primary-color;
+  font-size: map-get($font-size, font-size-24 );
+  padding:map-get($Paddings, padding-6 );
+  background: liner;
+  }
+  & li p {
+  color: $steps-color;
+  font-size: map-get($font-size, font-size-20 );
+  font-weight: $normal;
+  padding:map-get($Paddings, padding-6 );
+  }
+  & li p.hours  {
+    font-weight: $bold;
+  }
+  & li .ContactIconSVG {
+    vertical-align: middle;
+    padding: map-get($Paddings, padding-40 );
+    font-size: map-get($font-size, font-size-30 );
+    color: $steps-color;
+    height: 120px;
+  }
+}
+
+.phone a{
+font-weight: $bold;
+color: $second-color;
+font-size: map-get($font-size , font-size-20 ); }
+
+span.time {
+font-weight: $bold; }
+
+.info a {
+display: flex;
+justify-content: center;
+font-size: map-get($font-size , font-size-12 );
+background-color: $background-info;
+color: $primary-color; }
