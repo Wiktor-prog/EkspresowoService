@@ -2,6 +2,11 @@
 @use "../Colors" as *;
 @use "../Variables" as *;
 
+
+.map {
+  padding: map-get($Paddings, padding-20);
+}
+
 .mapouter {
   position:relative;
   background: $background-steps;

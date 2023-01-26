@@ -9,7 +9,9 @@ export default function StepRow() {
         <li className="color-square">
           <p className="number">Krok 1</p>
           <img className="iconSVG" src={require('../Assets/logo/phonecolor.svg').default} alt="" />
-          <p>Zadzwoń do nas!<br/>i zgłoś naprawę<br/></p>
+          <p>Zadzwoń do nas!<br/>i zgłoś naprawę<br/>
+          
+          </p>
         </li>
         <li className="color-square">
           <p className="number">Krok 2</p>

@@ -16,7 +16,7 @@ const StyledNav = styled.ul`
   font-size: 20px;
 }
 .menu_top li a {
-  color:  #a98970;
+  color:  #2b2b2b;
   text-decoration: none;
 }
 

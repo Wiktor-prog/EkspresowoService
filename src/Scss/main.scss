@@ -9,6 +9,7 @@
 // Main website settings //
 
 // components settings //
+@use "../Scss/build/components/Preloader" as *;
 @use "../Scss/build/components/NavBar" as *;
 @use "../Scss/build/components/HomeSection" as *;
 @use "../Scss/build/components/AboutSection" as *;

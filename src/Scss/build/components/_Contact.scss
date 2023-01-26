@@ -49,11 +49,6 @@ color: $second-color;
 font-size: map-get($font-size , font-size-20 ); }
 
 span.time {
-font-weight: $bold; }
+font-weight: $bold;
+font-size: map-get($font-size , font-size-20 ); }
 
-.info a {
-display: flex;
-justify-content: center;
-font-size: map-get($font-size , font-size-12 );
-background-color: $background-info;
-color: $primary-color; }

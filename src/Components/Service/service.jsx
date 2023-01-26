@@ -1,6 +1,5 @@
 import React from "react";
 
-
 export default function Service() {
   return (
     <section className="service" id="service">
@@ -20,7 +19,6 @@ export default function Service() {
                   pytaj na miejscu. Na koniec umawiamy się z Tobą na formę odbioru ekspresu - voila!</p>
             </div>
         </div>
-      
       </div>
     </section>
   )

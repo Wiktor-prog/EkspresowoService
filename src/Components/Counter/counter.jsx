@@ -1,8 +1,6 @@
 import React from "react";
 import "../../Scss/build/components/_Counter.scss"
 
-
-
 export default function Counter() {
   return (
     <section className="counter">
@@ -10,7 +8,7 @@ export default function Counter() {
       <ul>
         <li>
         <img className="iconSVG" src={require('../Assets/logo/wrench.svg').default} alt="" />
-          <p id="number1" className="number">800+</p> 
+          <p id="number1" className="number">900+</p> 
           <p>Wykonane naprawy</p>
         </li>
         <li>
