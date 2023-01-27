@@ -5,8 +5,8 @@ export default function About() {
     <section className="about" id="about">
       <div class="max-width">
         <div className="about-content">
-        <div className="column left">
-              <img src= {require('../Assets/logo/Coffee_Lover_Isometric.svg').default} alt="" />
+          <div className="column left">
+              <img src= {require('../Assets/logo/3dmug.png')} alt="" />
             </div>
           <div className="column right">
             <div className="description">Krótko o nas</div>

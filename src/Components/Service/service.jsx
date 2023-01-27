@@ -6,7 +6,7 @@ export default function Service() {
       <div className="max-width"> 
         <div className="service-container">
           <div className="column left">
-            <img src= {require('../Assets/logo/Coffee_Isometric.svg').default} alt="" />
+            <img src= {require('../Assets/logo/3dcup.png')} alt="" />
           </div>
             <div className="column right">
               <div className="description">Jak pracujemy?</div>
@@ -21,5 +21,6 @@ export default function Service() {
         </div>
       </div>
     </section>
+    
   )
 }

@@ -10,7 +10,7 @@ export default function Contact() {
             <img className="ContactIconSVG" src={require('../Assets/logo/phonecolor.svg').default} alt="" />
             <p className="hours">Telefon</p>
             <span className="phone"><br/>
-            <a href="tel:503083602" rel="noreferrer" target="_blank">503-083-602</a> <br/>
+            <a href="tel:503083602" rel="noreferrer" target="_blank">503-083-602</a><br/>
             <a href="tel:505333789" rel="noreferrer" target="_blank">505-333-789</a>
             </span>
           </li>
@@ -29,6 +29,10 @@ export default function Contact() {
         </ul>
       </div>
     </div>
+    <div className="info">
+    Illustration by <a href="https://icons8.com/illustrations/author/zD2oqC8lLBBA">Icons 8</a> from <a href="https://icons8.com/illustrations">Ouch!</a>
+    </div>
+    
   </section>
   )
 }

@@ -43,6 +43,9 @@ padding-bottom: map-get($Paddings, padding-50 );
   }
 }
 
+.info  {
+  display: none;
+}
 .phone a{
 font-weight: $bold;
 color: $second-color;

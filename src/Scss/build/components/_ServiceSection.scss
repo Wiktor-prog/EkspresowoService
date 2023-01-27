@@ -8,7 +8,7 @@ service Section
 
 .service {
   background: $primary-color;
-  padding-top: map-get($Paddings, padding-24 );
+  padding-top: map-get($Paddings, padding-50 );
   background-color: $background-steps;
   padding-bottom: map-get($Paddings, padding-30 ); 
   
@@ -16,7 +16,7 @@ service Section
       width: 45%; 
     }
     & .service-container .right img {
- 
+      
     object-fit: cover;
     }
   }
