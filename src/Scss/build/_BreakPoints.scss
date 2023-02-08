@@ -16,8 +16,8 @@ $screen-xl-max: 1200px;
 
 @media (max-width: $screen-xl-max){
   .about .about-content .left img {
-    height: 350px;
-    width: 350px;   
+   height: 230px;
+   width: 260px;   
     }
     .service-list {
     font-size: map-get($font-size , font-size-14 );
@@ -38,7 +38,9 @@ $screen-xl-max: 1200px;
     z-index: 999;
     }
     .about .about-content .left img {
-    padding-top: map-get($Paddings, padding-40 )
+    padding-top: map-get($Paddings, padding-40 );
+    height: 230px;
+   width: 217px;  
     }
     .home-content .logo img {
     height: 300px;
